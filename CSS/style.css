@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.my_container{
+    height: 100%;
+    width: 100%;
+}
+.my_container > .navber{
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navber > .adda_times{
+    background-color: black;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    
+ } 
+.navber > .home{
+    background-color: black;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navber > .movies{
+    background-color: black;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navber > .upcomeing{
+    background-color: black;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navber > .search{
+    background-color: rgb(15, 169, 230);
+    height: 100%;
+    width: 44%;
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    height: 100%;
+    width: 10%;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_icon > i {
+    font-size: 25px;
+    color: white;
+}
+.search_box{
+    height: 100%;
+    width: 90%;
+    background: gray;
+}
+ .search_box>input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+} 
+.search_box>input:focus{
+    outline: none;
+}
+.search_box>input::placeholder{
+    font-size: 25px;
+    color: white;
+    padding: 0 8px; 
+} 
+.navber > .tvlogin{
+    background-color: black;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navber > .login{
+    background-color: rgb(1, 2, 3);
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navber > .subscrive{
+    background-color: #ED1C25;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my_container > .slider{
+    background-color: green;
+    height: 50%;
+    width: 100%;
+}
+.my_container > .main{
+    background-color: black;
+    height: auto;
+    min-height: 30%;
+    width: 100%;
+}
+.main_item{
+    width: 100%;
+    height: 100%;
+}
+.main_item > .Tranding_now{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 20px;
+}
+.main_item > .Tranding_now_text{
+
+}
+.main_item > .Tranding_now_item{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.main_item > .addatimes_originals{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 20px;
+}
+.main_item > .addatimes_originals_item{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+.hi{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+}
+.my_container > .footer{
+    background-color: black;
+    height: 10%;
+    width: 100%;
+}
